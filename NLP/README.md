@@ -40,3 +40,4 @@ re.match('abc', 'abcdef')
 | .* | wildcard | 'fkdja' |
 | + or * | greedy match | 'aaaaa' |
 | \S | not space | 'no_spaces' |
+| [a-z] | lowercase group | 'adbdv' |
