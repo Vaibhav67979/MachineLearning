@@ -30,3 +30,13 @@ NLP Applications include:
 import re
 re.match('abc', 'abcdef')
 ```
+### Common regex patterns
+
+|patterns | matches | example |
+|---------|---------|---------|
+|\w+ | word | 'Magic' |
+| \d+ | digit | 9 |
+| \s | space | ' ' |
+| .* | wildcard | 'fkdja' |
+| + or * | greedy match | 'aaaaa' |
+| \S | not space | 'no_spaces' |
