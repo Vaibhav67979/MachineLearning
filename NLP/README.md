@@ -68,4 +68,31 @@ print(re.split(digits, my_string))
 
 Tokenization is the process of transforming a string or document into smaller chunks, which we call tokens.
 
+Examples:
+1. Breaking out words in a sentence.
+2. Separating punctuation.
+3. Separtaing all hashtags in a tweet.
+
+
+### NLTK
+
+`nltk` - natural language toolkit.
+
+```python
+from nltk.tokenize import word_tokenize
+word_tokenize("Hi there")
+```
+
+### Why tokenization?
+
+- Easier to map part of speech.
+- Matching common words.
+- Removing/replacing unwanted tokens.
+
+### Other nltk tokenizers
+
+- `sent_tokenize` : tokenize a document inot sentences.
+- `regexp_tokenize` : tokenize a string or document based on a regular expression pattern.
+- `TweetTokenizer` : special class for tweet tokenization, allowing you to separate hashtags, mentions, and lots of exclamatiom points.
+
 
