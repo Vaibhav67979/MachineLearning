@@ -41,3 +41,31 @@ re.match('abc', 'abcdef')
 | + or * | greedy match | 'aaaaa' |
 | \S | not space | 'no_spaces' |
 | [a-z] | lowercase group | 'adbdv' |
+
+
+### Exercise
+```python
+# Write a pattern to match sentence endings: sentence_endings
+sentence_endings = r"[.?!]"
+
+# Split my_string on sentence endings and print the result
+print(re.split(sentence_endings, my_string))
+
+# Find all capitalized words in my_string and print the result
+capitalized_words = r"[A-Z]\w+"
+print(re.findall(capitalized_words, my_string))
+
+# Split my_string on spaces and print the result
+spaces = r"\s"
+print(re.split(spaces, my_string))
+
+# Find all digits in my_string and print the result
+digits = r"\d+"
+print(re.split(digits, my_string))
+```
+
+## Tokenization
+
+Tokenization is the process of transforming a string or document into smaller chunks, which we call tokens.
+
+
