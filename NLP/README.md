@@ -15,7 +15,7 @@ NLP Applications include:
 - Translation
 - Sentiment analysis
 
-## Regukar Expressions(RE/Regex) :
+## Regular Expressions(RE/Regex) :
 
 - Strings with a special syntax.
 - Allow us to match patterns.
@@ -30,6 +30,25 @@ NLP Applications include:
 import re
 re.match('abc', 'abcdef')
 ```
+```
+<re.Match object; span=(0, 3), match='abc'>
+```
+---
+```python
+re.match('abc', 'abcde')
+```
+```
+<re.Match object; span=(0, 3), match='abc'>
+```
+---
+```python
+re.search('cd', 'abcde')
+```
+```
+<re.Match object; span=(2, 4), match='cd'>
+```
+---
+
 ### Common regex patterns
 
 |patterns | matches | example |
