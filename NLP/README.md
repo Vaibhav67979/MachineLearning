@@ -103,3 +103,5 @@ word_tokenize("Hi there")
 - `sent_tokenize` : tokenize a document into sentences.
 - `regexp_tokenize` : tokenize a string or document based on a regular expression pattern.
 - `TweetTokenizer` : special class for tweet tokenization, allowing you to separate hashtags, mentions, and lots of exclamatiom points.
+
+### [NLTK examples](https://github.com/Vaibhav67979/MachineLearning/blob/0cf3a5fd81728f33b2659071b1d7831f5e92a058/NLP/Code(examples)/TokenizationEx.ipynb)
