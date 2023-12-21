@@ -1,8 +1,12 @@
 # Natural Language Processing
-> Everything I learnt in the Datacamp course of "Introduction to Natural Language Processing in Python"
->
-> URL - [Introduction to Natural Language Processing in Python](https://app.datacamp.com/learn/courses/introduction-to-natural-language-processing-in-python)
-
+## Roadmap 
+1. Text preprocessing 1 - tokenization, lemmatization (cleaning the text)
+2. Text preprocessing 2 - BOW(Bag of words), TFIDF, unigrams (converting input text to vectors)
+3. Text preprocessing 3 - Word2vec, avgword2ve (convert input text to vectors)
+4. RNN, LSTM RNN, GRU RNN (Neural networks - DL)
+5. Text preprocessing 4 - Word embedding (convert input text to vectors)
+6. Transformners
+7. BERT
 
 ## Introduction 
 
