@@ -77,6 +77,11 @@ Examples:
 2. Separating punctuation.
 3. Separtaing all hashtags in a tweet.
 
+### Terminologies 
+1. Corpus - paragraph
+2. Documents - sentences
+3. Vocabulary - Unique words present
+4. Words - all the words
 
 ### NLTK
 
@@ -98,10 +103,3 @@ word_tokenize("Hi there")
 - `sent_tokenize` : tokenize a document into sentences.
 - `regexp_tokenize` : tokenize a string or document based on a regular expression pattern.
 - `TweetTokenizer` : special class for tweet tokenization, allowing you to separate hashtags, mentions, and lots of exclamatiom points.
-
-### Terminologies 
-1. Corpus - paragraph
-2. Documents - sentences
-3.. Vocabulary - Unique words present
-4. Words - all the words
-
